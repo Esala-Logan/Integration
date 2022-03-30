@@ -110,7 +110,7 @@ elif selection == '2':
             print("Roll out your dough on a floured surface until it is about 1/2in thick Sprinkle cinnamon sugar on dough from edge to edge, leaving a quarter inch around the borders.")
             sleep(4)
             print(" ")
-            print("Trim 1/2 in off sides of the log, cut dough using a nice, serrated knife, 2 in rolls to total 9 equal buns.")
+            print("Trim 1/2 in off sides of the log, cut dough using a nice, serrated knife, 2 in rolls to total 10 equal buns.")
             print(" ")
             print("In a 9x9 baking pan, add the caramel glaze at the bottom, sprinkle in 1 1/4 cup (140 g) of toasted, crushed pecan, arrange dough equally spaced apart In 3.")
             print("Place in oven at 350 degrees at 30-35 minutes. ")
@@ -121,27 +121,43 @@ elif selection == '2':
         elif Skip == 2:
             print("DING")
             print("I cant find a cinnamon roll so heres a picture of a pretzel: 🥨")
-        elif Number_Buns == 1:
-            print("Ok you want, 10, sounds good lets' get cooking.") #will continue later but this is just default measurments which are gonna be a bunch of print statements.
-        Goodbye()
+            
+    elif Number_Buns == 1:
+        print("Ok you want, 10, sounds good lets' get cooking.") #WILL continue later but this is just default measurments which are gonna be a bunch of print statements.
+    Goodbye()
 #So at this point im happy with the calculations and im using the sleep and blank print("") statments to make the output look prettier and less jarring.
 #I need to sort out the if statement at the beginning if you pick 10 and the if user wants skip -> update, did it. 
 #create rolling dough icon when kneading steamy oven on pasta and steaming pot for meatfkf
 #Glaised Braised Short Ribs
 elif selection == '3':
+    #Im going to create a function that does the division seen in the cinnamon bun recipe 
+    def divide_food(x, y):
+        result = x / y
+        return result   
     print("Tasty stuff...")
     skip_or_not = int(float(input("Would you like to go through the steps for prep or go straight to cooking?(Type in 1 to stay or 2 to skip): ")))
-    while skip_or_not != 1 and skip_or_not != 2:
+    while 1 > skip_or_not or skip_or_not > 2 :
         skip_or_not = int(float(input("Sorry thats out of range please type 1, or 2: ")))
     if skip_or_not == 1:
-        print("First,")
+        print("First, you're going to want to get short ribs that are a specific cut called an english cut")
+        amount_of_dish = int(input("How many servings do you want to make? (Type 1 for 4, or type 2 for other): "))
+        while amount_of_dish != 1 and amount_of_dish != 2:
+            amount_of_dish = (int(input("Sorry thats out of the range, please type 1, or 2: ")))
+    if amount_of_dish == 2:
+        print("Ok you want another amount, sounds good.")
+        print(" ")
+        New_Dish = int(float(input("How many servings would you like to make?: ")))       
+        print("Ok", New_Dish, "servings it is.")
+        Serving_Calculation = 4 / New_Dish
+        print("So, to start you're going to want to brown", divide_food(3.5, Serving_Calculation), "pounds of short ribs in a large pot")                           
     elif skip_or_not == 2:
         Prep_Skip = input("Press enter to prep your recipe and worksation")
         for x in range(1, 18, 2):
             print(x, "ingredients prepped")
-        print("Ok that was easier than listing everything out.")
+        print("Ok that was easier than listing everything out.") #WILL continue later after getting to cooking part also will do 4 servings later but itll just be a bunch of prints
+        
 elif selection == '4':
     print("Ok, bye")
 #dont make let it just end reloop it with new message and menu again--how would I do that?
-#As you can see i want to go a similar route for the other recipes as I did with 1, trying to walk the user through them while letting them participate while calculating whatever measurments are needed in the recipe, I just dont know if this is seeming like im on the right track in terms of the project though 
-#** exponential multiplication, * multiplication, / division/ % modulus shows remainder, // floor division rounds to whole number, + addition, - subtraction, 
+#trying to walk the user through them while letting them participate while calculating whatever measurments are needed in the recipe, I just dont know if this is seeming like im on the right track in terms of the project though 
+#** exponential multiplication, * multiplication, / division/ % modulus shows remainder, // floor division rounds to whole number, + addition, - subtraction 
