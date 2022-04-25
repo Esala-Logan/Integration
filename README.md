@@ -16,13 +16,13 @@ https://user-images.githubusercontent.com/101841905/164951810-9081cd00-acec-4d64
 ## Diagrams
 
 ## Getting Started 
-If you do not have it already download the latest version of python and open the file, you can then interact with it in the way I intended, for editing you're going to want to download an IDE like pycharm.
+If you do not have it already download the latest version of python and open the file, you can then interact with it in the way I intended, for editing you're going to want to download an IDE like pycharm.<br />
 
 ## Built With
 
 * Pycharm and pythons IDLE the project was originally started in pythons IDLE and I liked it but it was moved to pycharm and I now like pycharm more. 
 * Python 3.10
-* Resources used: Stackoverflow, Programiz, professor direction.
+* Resources used: Stackoverflow, Programiz, professor direction.<br />
 
 ## Contributing
 
@@ -53,8 +53,8 @@ Andrew, Kat, Professor O, https://www.programiz.com, https://stackoverflow.com/,
 
 ## Key Programming Concepts Utilized
 
-"This is one program that integrates all of the programming skills and concepts that you learn throughout the semester.":
-simple I/O
+"This is one program that integrates all of the programming skills and concepts that you learn throughout the semester.":<br />
+ Simple I/O
 Documentation
 the input() function
 basic calculations
