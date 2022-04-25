@@ -11,10 +11,6 @@ I mostly made this at my current home randomly when I was bored or when I would 
 
 https://user-images.githubusercontent.com/101841905/164951810-9081cd00-acec-4d64-bbb2-0dc85f3c6318.mp4
 
-## Documentation
-
-## Diagrams
-
 ## Getting Started 
 If you do not have it already download the latest version of python and open the file, you can then interact with it in the way I intended, for editing you're going to want to download an IDE like pycharm.<br />
 
@@ -37,6 +33,7 @@ Logan Esala
 Andrew, Kat, Professor O, https://www.programiz.com, https://stackoverflow.com/, https://sites.google.com/view/profosheroff/courses/cop1500
 
 ## History
+Now that I have the final product made nothing has been updated yet.
 
 ## Key Programming Concepts Utilized
 
@@ -52,3 +49,5 @@ Andrew, Kat, Professor O, https://www.programiz.com, https://stackoverflow.com/,
 * standard iterative structures <br />
 * function definition <br />
 * bitwise operators <br />
+## License
+MIT License
