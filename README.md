@@ -1,6 +1,6 @@
 # Project Title
 
-This a program that asks the user what dish they want to make given a menu and based on their selection the program maps out the cooking process with ingredients listed and as they are added it basically "shows" them what is made, for example mixing together flour and egg thoroughly creates dough, I also want it to be like the user is taking the actions to create the dish like input mix to mix ingredients together<br />
+This a program that asks the user what dish they want to make given a menu and based on their selection the program maps out the cooking process based on how much of the dish the user wants to make with ingredients listed and as they are added it basically "shows" them what is made, for example mixing together flour and egg thoroughly creates dough, I also want it to be like the user is taking the actions to create the dish like input mix to mix ingredients together<br />
 This is my integration project for COP 1500<br />
 I made this program alone (even though it definetly looks like it took a team of google engineers over 40 years to construct it.)<br />
 I made this project at the first half of 2022 and I was (and am at the moment) a complete beginner<br />
