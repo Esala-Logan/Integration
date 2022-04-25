@@ -54,14 +54,14 @@ Andrew, Kat, Professor O, https://www.programiz.com, https://stackoverflow.com/,
 ## Key Programming Concepts Utilized
 
 "This is one program that integrates all of the programming skills and concepts that you learn throughout the semester.":<br />
-*Simple I/O <br />
-*Documentation <br />
-*the input() function <br />
-*basic calculations <br />
-*shortcut operators <br />
-*standard conditional structures / statements <br />
-*relational operators <br />
-*Boolean operators <br />
-*standard iterative structures <br />
-*function definition <br />
-*bitwise operators <br />
+* Simple I/O <br />
+* Documentation <br />
+* the input() function <br />
+* basic calculations <br />
+* shortcut operators <br />
+* standard conditional structures / statements <br />
+* relational operators <br />
+* Boolean operators <br />
+* standard iterative structures <br />
+* function definition <br />
+* bitwise operators <br />
